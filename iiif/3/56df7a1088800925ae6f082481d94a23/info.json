@@ -1,9 +1,9 @@
 {
-  "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "http://oficinaexpovirtuais-dados.vercel.app/3/56df7a1088800925ae6f082481d94a23",
+  "@context": "https://iiif.io/api/image/3/context.json",
+  "id": "https://oficinaexpovirtuais-dados.vercel.app/3/56df7a1088800925ae6f082481d94a23",
   "type": "ImageService3",
   "profile": "level0",
-  "protocol": "http://iiif.io/api/image",
+  "protocol": "https://iiif.io/api/image",
   "tiles": [
     {
       "scaleFactors": [

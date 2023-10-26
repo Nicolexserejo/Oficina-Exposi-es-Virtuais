@@ -1,6 +1,6 @@
 {
-    "@context": "http://iiif.io/api/presentation/3/context.json",
-    "id": "http://oficinaexpovirtuais-dados.vercel.app/2/manifest.json",
+    "@context": "https://iiif.io/api/presentation/3/context.json",
+    "id": "https://oficinaexpovirtuais-dados.vercel.app/2/manifest.json",
     "type": "Manifest",
     "label": {
         "none": [
@@ -51,7 +51,7 @@
     },
     "thumbnail": [
         {
-            "id": "http://oficinaexpovirtuais-dados.vercel.app/2/7ddaf37fec1c38fb3e7ab86856576697/full/169,300/0/default.jpg",
+            "id": "https://oficinaexpovirtuais-dados.vercel.app/2/7ddaf37fec1c38fb3e7ab86856576697/full/169,300/0/default.jpg",
             "type": "Image",
             "format": "image/jpeg",
             "height": 300,
@@ -71,31 +71,31 @@
     ],
     "items": [
         {
-            "id": "http://oficinaexpovirtuais-dados.vercel.app/2/canvas/0",
+            "id": "https://oficinaexpovirtuais-dados.vercel.app/2/canvas/0",
             "type": "Canvas",
             "height": 1005,
             "width": 564,
             "items": [
                 {
-                    "id": "http://oficinaexpovirtuais-dados.vercel.app/2/canvas/0/annotation-page",
+                    "id": "https://oficinaexpovirtuais-dados.vercel.app/2/canvas/0/annotation-page",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "http://oficinaexpovirtuais-dados.vercel.app/2/annotation/0",
+                            "id": "https://oficinaexpovirtuais-dados.vercel.app/2/annotation/0",
                             "type": "Annotation",
                             "motivation": "painting",
-                            "target": "http://oficinaexpovirtuais-dados.vercel.app/2/canvas/0",
+                            "target": "https://oficinaexpovirtuais-dados.vercel.app/2/canvas/0",
                             "body": {
-                                "id": "http://oficinaexpovirtuais-dados.vercel.app/2/7ddaf37fec1c38fb3e7ab86856576697/full/1122,2000/0/default.jpg",
+                                "id": "https://oficinaexpovirtuais-dados.vercel.app/2/7ddaf37fec1c38fb3e7ab86856576697/full/1122,2000/0/default.jpg",
                                 "type": "Image",
                                 "format": "image/jpeg",
                                 "height": 2000,
                                 "width": 1122,
                                 "service": [
                                     {
-                                        "id": "http://oficinaexpovirtuais-dados.vercel.app/2/7ddaf37fec1c38fb3e7ab86856576697",
+                                        "id": "https://oficinaexpovirtuais-dados.vercel.app/2/7ddaf37fec1c38fb3e7ab86856576697",
                                         "type": "ImageService3",
-                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                        "profile": "https://iiif.io/api/image/3/level0.json"
                                     }
                                 ]
                             }
