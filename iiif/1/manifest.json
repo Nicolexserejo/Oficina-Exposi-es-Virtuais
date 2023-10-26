@@ -1,5 +1,5 @@
 {
-    "@context": "https://iiif.io/api/presentation/3/context.json",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "https://oficinaexpovirtuais-dados.vercel.app/1/manifest.json",
     "type": "Manifest",
     "label": {
@@ -57,7 +57,7 @@
                                     {
                                         "id": "https://oficinaexpovirtuais-dados.vercel.app/1/829a96befd05725e068dd82c3be85279",
                                         "type": "ImageService3",
-                                        "profile": "https://iiif.io/api/image/3/level0.json"
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
                                     }
                                 ]
                             }
@@ -91,7 +91,7 @@
                                     {
                                         "id": "https://oficinaexpovirtuais-dados.vercel.app/1/79700faf2b884338343642242bfffb61",
                                         "type": "ImageService3",
-                                        "profile": "https://iiif.io/api/image/3/level0.json"
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
                                     }
                                 ]
                             }
