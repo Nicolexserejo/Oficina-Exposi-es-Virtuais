@@ -1,0 +1,104 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://oficinaexpovirtuais-dados.vercel.app/1/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "none": [
+            "wallpaper 1"
+        ]
+    },
+    "requiredStatement": {
+        "label": "Atribuição",
+        "value": "Disponibilizado por Sedmikrásky (movie)"
+    },
+    "thumbnail": [
+        {
+            "id": "http://oficinaexpovirtuais-dados.vercel.app/1/829a96befd05725e068dd82c3be85279/full/300,240/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 240,
+            "width": 300
+        }
+    ],
+    "homepage": [
+        {
+            "type": "Text",
+            "format": "text/html",
+            "label": {
+                "none": [
+                    "Página do objeto"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "http://oficinaexpovirtuais-dados.vercel.app/1/canvas/0",
+            "type": "Canvas",
+            "height": 451,
+            "width": 564,
+            "items": [
+                {
+                    "id": "http://oficinaexpovirtuais-dados.vercel.app/1/canvas/0/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://oficinaexpovirtuais-dados.vercel.app/1/annotation/0",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://oficinaexpovirtuais-dados.vercel.app/1/canvas/0",
+                            "body": {
+                                "id": "http://oficinaexpovirtuais-dados.vercel.app/1/829a96befd05725e068dd82c3be85279/full/2000,1599/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 1599,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "http://oficinaexpovirtuais-dados.vercel.app/1/829a96befd05725e068dd82c3be85279",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "http://oficinaexpovirtuais-dados.vercel.app/1/canvas/1",
+            "type": "Canvas",
+            "height": 564,
+            "width": 564,
+            "items": [
+                {
+                    "id": "http://oficinaexpovirtuais-dados.vercel.app/1/canvas/1/annotation-page",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "http://oficinaexpovirtuais-dados.vercel.app/1/annotation/1",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://oficinaexpovirtuais-dados.vercel.app/1/canvas/1",
+                            "body": {
+                                "id": "http://oficinaexpovirtuais-dados.vercel.app/1/79700faf2b884338343642242bfffb61/full/2000,2000/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2000,
+                                "width": 2000,
+                                "service": [
+                                    {
+                                        "id": "http://oficinaexpovirtuais-dados.vercel.app/1/79700faf2b884338343642242bfffb61",
+                                        "type": "ImageService3",
+                                        "profile": "http://iiif.io/api/image/3/level0.json"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

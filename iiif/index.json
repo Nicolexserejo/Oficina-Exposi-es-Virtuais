@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://oficinaexpovirtuais-dados.vercel.app/index.json",
+    "type": "Collection",
+    "label": {
+        "none": [
+            "Oficina Exposições Virtuais"
+        ]
+    },
+    "thumbnail": [
+        {
+            "id": "http://oficinaexpovirtuais-dados.vercel.app/1/829a96befd05725e068dd82c3be85279/full/300,240/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 240,
+            "width": 300
+        }
+    ],
+    "items": [
+        {
+            "id": "http://oficinaexpovirtuais-dados.vercel.app/1/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "wallpaper 1"
+                ]
+            }
+        },
+        {
+            "id": "http://oficinaexpovirtuais-dados.vercel.app/2/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "wallpaper 3"
+                ]
+            }
+        },
+        {
+            "id": "http://oficinaexpovirtuais-dados.vercel.app/3/manifest.json",
+            "type": "Manifest",
+            "label": {
+                "none": [
+                    "wallpaper 3"
+                ]
+            }
+        }
+    ]
+}
